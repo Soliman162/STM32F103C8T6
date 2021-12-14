@@ -1,0 +1,43 @@
+#ifndef UART_CONFIG_H
+#define UART_CONFIG_H
+
+/*
+    OPTIONS:-
+    DATA_8_BIT
+    DATA_9_BIT
+
+*/
+#define WORD_LENGTH     DATA_8_BIT
+
+/*
+    OPTIONS:-
+    PARITY_CONTROL_DISABLED 
+    PARITY_CONTROL_ENABLED  
+*/
+#define PARITY_CONTROL      PARITY_CONTROL_DISABLED
+
+/*
+    OPTIONS:-
+    EVEN_PARITY 
+    ODD_PARITY 
+*/
+#define PARITY_SELECTION    EVEN_PARITY
+
+/*
+    OPTIONS:-
+    LIN_MODE_ENABLED
+    LIN_MODE_DISABLED
+*/
+#define LIN_MODE    LIN_MODE_DISABLED
+
+/*
+    OPTIONS:-
+    STOP_BIT_1
+    STOP_BIT_2
+
+*/
+#define STOP_BIT        STOP_BIT_1
+
+#define BAUD_RATE_VALUE 	0x45
+
+#endif
